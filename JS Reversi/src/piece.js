@@ -23,7 +23,7 @@ Piece.prototype.oppColor = function () {
  * Changes the piece's color to the opposite color.
  */
 Piece.prototype.flip = function () {
-    debugger
+    // debugger
     this.color = this.oppColor();
     // (this.color === "black") ? "white" : "black";
 };

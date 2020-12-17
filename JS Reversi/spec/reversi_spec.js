@@ -113,8 +113,15 @@ describe("Board", function () {
       expect(testBoard.isMine([3, 3], 'black')).toEqual(false);
     });
 
+    
     it('should return falsey when retrieved piece is undefined', function () {
-      expect(!testBoard.isMine([0, 0], 'black')).toEqual(true);
+      // debugger
+      !testBoard.isMine([0, 0], 'black')
+
+      expect(!testBoard.isMine([0, 0], 'black')
+      ).toEqual(true);
+
+      // debugger
     });
   });
 
